@@ -2,7 +2,11 @@
   padding: 0;
   margin: 0;
 }
-
+body{
+  background-image: url(back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .One{
   height: 45px;
   border-radius: 4px 4px 4px 4px;
@@ -34,7 +38,7 @@
 .Menu li.active a{
   color: black;
   background-color: white;
-  padding: 5% 2%;
+  padding: 3% 2%;
   border-radius: 4px 4px 4px 4px
 }
 .Menu a{
