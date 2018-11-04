@@ -2,8 +2,13 @@
   padding: 0;
   margin: 0;
 }
-
+body{
+  background-image: url(back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .One{
+  /* position: fixed; */
   height: 45px;
   border-radius: 4px 4px 4px 4px;
   background-color: #342b2b;
@@ -54,4 +59,29 @@
   transition: 0.5s;
   background: #342b2b;
   border-bottom: 4px solid red;
+}
+.offer1{
+
+
+  margin-left: 10%;
+  margin-right: 180px;
+  margin-top: 1.7%;
+}
+.offer2{
+  margin-left: 10%;
+  margin-right: 180px;
+  margin-top: 1.7%;
+}
+
+.offer3 {
+  margin-left: 10%;
+  margin-top: 1.7%;
+}
+
+.one img{
+  float: left;
+}
+
+.two img {
+  float: right;
 }
